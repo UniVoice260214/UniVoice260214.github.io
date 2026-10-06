@@ -9,7 +9,7 @@
   hero_background.png    같은 목업, 배경 포함 (공유 미리보기용)
   ui_student_live.png    학생 수업 화면        ui_student_home.png   학생 홈
   ui_prof_setup.png      교수자 수업 준비      ui_prof_live.png      교수자 수업 진행
-  demo-photo.png         실제 시연 사진
+  yt_maxresdefault.jpg   시연 영상 썸네일 (https://i.ytimg.com/vi/<영상ID>/maxresdefault.jpg 를 내려받은 것)
   architecture.svg       아키텍처 그림         logo.svg              로고
 """
 import shutil
@@ -28,7 +28,7 @@ SRC = {
     "ui-student-home": (S / "ui_student_home.png", 1800, 86),
     "ui-prof-setup": (S / "ui_prof_setup.png", 780, 88),
     "ui-prof-live": (S / "ui_prof_live.png", 780, 88),
-    "demo-photo": (S / "demo-photo.png", 1800, 82),
+    "demo-thumb": (S / "yt_maxresdefault.jpg", 1280, 84),   # 시연 영상(YouTube) 썸네일
 }
 
 
